@@ -1,0 +1,761 @@
+/* html{
+    overflow: auto;
+} */
+button:focus{
+    outline: none;
+}
+.mleft{
+    margin-left: 200px;
+}
+.z-index-1{
+    z-index: 1;
+}
+.z-index-2{
+    z-index: 2;
+}
+.relative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+}
+.blue{
+    color: blue!important;
+}
+.white{
+    color: white!important;
+}
+.sitebrand{
+    width: 140px;
+    margin-top: -30px;
+}
+.nav{
+    background-color: #4E72D0;
+}
+.nav-link{
+    color: black;
+}
+.face-1{
+    opacity: .3;
+}
+.col-md-6{
+    padding-left: 0;
+    padding-right: 0;
+}
+.img-right{
+    transform: rotateY(180deg);
+}
+.title{
+    position: absolute;
+    top: 130px;
+    left: 220px;
+}
+.title p:first-child{
+    margin-bottom: 0!important;
+    font-weight: 500;
+}
+.small{
+    font-size: 12px;
+    margin-top: 10px;
+    margin-right: 100px;
+}
+.hSize{
+    font-size: 2.5rem;
+    margin: 0 70px 0 0!important;
+    font-weight: bold;
+}
+.buttonn{
+    background-color: #4E72D0;
+    color: white!important;    
+    font-weight: 600;
+    border-radius: 20px;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 0!important;
+    transition: .2s linear;
+}
+.buttonn:hover{
+    background-color: #59BC95;
+}
+.animation{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #59BC95; 
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    animation: animate 1.2s linear infinite;
+}
+.play{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #59BC90;
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    z-index: 3;
+}
+
+@keyframes animate {
+    0%{
+        transform: scale(0);
+    }
+    25%{
+        transform: scale(1.25);
+    }
+    55%{
+        transform: scale(1.5);
+        background-color: #59bc8f6e;
+    }
+    75%{
+        transform: scale(1.75);
+        background-color: #59bc8f3b;
+    }
+    100%{
+        transform: scale(2);
+        background-color: #59bc8f18;
+    }
+}
+.dentist{
+    width: 40px;
+    height: 40px;
+    margin: 10px 10px 10px 0;
+}
+.s-page{
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.card-deck .card-body{
+    padding: 0;
+}
+.right span{
+    color: #5BC197;
+}
+.s-page .right b{
+    font-size: 15px;
+}
+.s-page .right p{
+   margin: 0; 
+   font-size: 12px;
+   font-weight: 500;
+}
+.spage-row h5{
+    font-size: 19px;
+}
+.spage-row span{
+    color: #4E72D0;
+    font-weight: 700;
+}
+.spage-row p{
+    font-size: 12px;
+}
+
+/* Book Online Page */
+.book-online{
+    background-image: url("../img/12_b_lines.png");
+    background-color: #F6F7FB;
+    position: relative;
+}
+.hSize2{
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+.d-flex p:nth-child(2){
+    font-size: 12px;
+    margin: 0 5px;
+}
+.input-group-append{
+    background-color: white;
+    border-radius: 4px;
+}
+.buttonn2{
+    background-color: #4E72D0;
+    color: white!important;
+    font-size: 14px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 2px 4px 4px #4e73d065;
+    padding: 7px 20px;
+    transition: .2s linear;
+}
+.buttonn2:hover{
+    background-color: #59BC95;
+    box-shadow: 2px 4px 4px #59bc9465;
+}
+.italic{
+    font-size: 16px;
+    color: #4E72D0;
+    font-style: italic;
+    font-weight: 600;
+    margin: 0;
+}
+.btn-outline-secondary{
+    opacity: .3;
+}
+.book{
+    width: 340px;
+    background-image: url("../img/Blue\ tringles.jpg");
+    background-position: bottom;
+    background-size: cover;
+    position: absolute;
+    top: -5rem;
+    left: 1.2rem;
+}
+.book form h4:first-child{
+    margin: 0;
+    color: white;
+}
+.buttonn3{
+    background-color: #59BC95;
+    box-shadow: 2px 4px 4px #59bc9465;
+    color: white!important;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+    border: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100%;
+    transition: .2s linear;
+}
+.buttonn3:hover{
+    background-color: #ffffff;
+    box-shadow: 2px 4px 4px #ffffff31;
+    color: #4E72D0!important;
+    font-weight: bold;
+}
+
+
+/* Services(High Quality) */
+.icon{
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 2px 4px 4px #E3E7F0;
+    padding: 7px;
+    margin: 2.5rem auto 1.2rem auto;
+}
+    /*  .cardmin hover */
+.icon .icon1{
+    background-image: url("../img/implant.png");
+    background-size: cover;
+    width: 45px;
+    height: 45px;
+}
+.cardmin:hover .icon .icon1{
+    background-image: url("../img/implantWhite.png");
+}
+.icon .icon2{
+    background-image: url("../img/tooth\(1\).png");
+    background-size: cover;
+    width: 45px;
+    height: 45px;
+}
+.cardmin:hover .icon .icon2{
+    background-image: url("../img/tooth\(1\)White.png");
+}
+.icon .icon3{
+    background-image: url("../img/caries.png");
+    background-size: cover;
+    width: 45px;
+    height: 45px;
+}
+.cardmin:hover .icon .icon3{
+    background-image: url("../img/cariesWhite.png");
+}
+.icon .icon4{
+    background-image: url("../img/clean.png");
+    background-size: cover;
+    width: 45px;
+    height: 45px;
+}
+.cardmin:hover .icon .icon4{
+    background-image: url("../img/cleanWhite.png");
+}
+.icon .icon5{
+    background-image: url("../img/tooth.png");
+    background-size: cover;
+    width: 45px;
+    height: 45px;
+}
+.cardmin:hover .icon .icon5{
+    background-image: url("../img/toothWhite.png");
+}
+.icon .icon6{
+    background-image: url("../img/dental-checkup.png");
+    background-size: cover;
+    width: 45px;
+    height: 45px;
+}
+.cardmin:hover .icon .icon6{
+    background-image: url("../img/dental-checkupWhite.png");
+}
+
+.cardmin{
+    background-image: url("../img/Grey\ tringles.jpg");
+    background-size: cover;
+    transition: .5s;
+}
+.cardmin:hover{
+    background-image: url("../img/Blue\ tringles.jpg");
+    background-size: cover;
+    color: white; 
+    box-shadow: 2px 4px 4px #4e73d050; 
+    transform:translate(10px, -10px);
+
+}
+.cardmin:hover .icon{
+    background-color: #59BC95;
+    box-shadow: 2px 4px 4px #00000027;
+}
+.cardmin a{
+    color: blue;
+    font-size: 1rem;
+    transition: .2s linear;
+    cursor: pointer;
+}
+.cardmin:hover a{
+    color: white;
+    font-size: 1.2rem;
+}
+  /* ----- */
+
+
+.cardmin h5{
+    font-weight: 600;
+}
+.cardmin p{
+    font-size: 15px;
+    text-align: center;
+}
+.cardmin a{
+    text-decoration: underline;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+
+/* Service(Pricing & Plans) */
+
+   /* switch year/month (YM) */
+label{
+    width: 155px;
+    padding: 5px 10px;
+    margin-left: 95px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: 5px solid #F4F5F9;
+
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+}
+label:hover {
+    cursor: pointer;
+}
+label p{
+    margin: 0;
+    padding-right: 10px;
+    font-size: 14px;
+    z-index: 2;
+}
+label::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background-color: #4E72D0;
+    border-radius: 4px;
+
+    transition: .3s linear;
+}
+.monthly{
+    color: #ffffff;
+    transition: .35s linear;
+}
+.yearly{
+    color: #000000;
+    transition: .35s linear;
+}
+input:checked + label::after{
+    top: 0;
+    left: 50%;
+}
+input:checked + label .monthly{
+    color: #000000;
+}
+input:checked + label .yearly{
+    color: #ffffff;
+}
+.control-inputYM{
+    opacity: 0;
+}
+  /* --- */
+  .group{      
+    box-shadow: 4px 5px 10px 10px #f5f5f5;
+  }
+.pngImage{
+    background-image: url("../img/777.png");
+    background-size: cover;
+    width: 85px;
+    height: 63px;
+    margin: 0 auto;
+}
+.pngImage img{
+    width: 65px;
+    margin-top: -5px;
+}
+.planCard{
+    border: 2.5px solid #f5f5f5;
+    position: relative;
+}
+.planCard p{
+    margin: 0;
+}
+.planCard p:nth-child(2){
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #59BC95;
+    margin-top: 13px;
+}
+.planCard p:nth-child(2) span{
+    font-size: 2.5rem;
+}
+.planCard p:nth-child(3){
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding-bottom: 7px;
+}
+.littleTitle{
+    font-size: 14px;
+    margin: 0;
+}
+.planCard button{
+    border: none;
+    border-radius: 25px;
+    background-color: #4E72D0;
+    box-shadow: 2px 4px 4px #4e73d065;
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 8px 35px;
+}
+.planCard button:hover{
+    background-color: #59BC95;
+    box-shadow: 2px 4px 4px #59bc9465;
+}
+.planCard .grey{
+    background-color: #59BC95;
+    box-shadow: 2px 4px 4px #59bc9465;
+}
+.planCard .grey:hover{
+    background-color: #4E72D0;
+    box-shadow: 2px 4px 4px #4e73d065;
+}
+.planCard .best{
+    display: block;
+    background-color: #59BC95;
+    color: #ffffff;
+    width: 25px;
+    padding-bottom: 30px;
+    position: absolute;
+    top: 0;
+    left: 80%;
+}
+.planCard .best div:last-child{
+    width: 21px;
+    height: 21px;
+    margin: 15px auto -40px auto;
+    background-color: #ffffff;
+    transform: rotate(45deg);
+}
+/* difference */
+.difference .col-md-6:first-child{
+    background-image: url("../img/snikers.jpg");
+    background-size: cover;
+    height: 450px;
+
+    position: relative;
+
+}
+
+.difference .col-md-6:first-child div{
+    width: 500px;
+    height: 300px;
+    background-image: url("../img/dentist-with-smile.jpg");
+    border: 15px solid #ffffff;
+    background-size: cover;
+    padding: 40px;
+    z-index: 2;
+
+    position: absolute;
+    top: 75px;
+    left: 15rem;
+
+
+}
+.difference .col-md-6:last-child{
+    background-image: url("../img/Blue\ tringles.jpg");
+    background-size: cover;
+    height: 450px;
+    z-index: 1;
+    color: #ffffff;
+}
+.border-r{
+    border-right: 2px solid  #3a5599;
+}
+.viewGallery{
+    padding: 8px 27px;
+    border: none;
+    border-radius: 5px;
+    background-color: #59BC95;
+    color: white;
+    font-size: 13px;
+    box-shadow: 2px 4px 5px #3a5599;
+}
+/* OUR TEAM */
+.back-ground{
+    background-image: linear-gradient(#F5F6FA, #ffffff);
+}
+.dentist2{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+    box-shadow: 2px 4px 5px #7070708f;
+}
+.dentistJob{
+    font-size: 14px;
+    font-weight: 400;
+    color: #707070;
+    margin: 0;
+}
+.viewGallery{
+    box-shadow: 2px 4px 4px #00000027;
+}
+.viewGallery + ul{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+/* carousel */
+.carousel-inner{
+    background-image: url("../img/Globe-Map.png");
+    background-position: center;
+    background-size: cover;
+    /* position: relative; */
+}
+.carousel-indicators{
+    top: .0;
+}
+.carousel-indicators li{
+    background-color: #c9c9ca!important;
+}
+.carousel-image{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 2px solid #e7e7e7;
+    box-shadow: 2px 4px 10px #00000027;
+}
+.carousel-image + div{
+    margin-top: 5px;
+    font-size: 1.2rem;
+    color: #F8CB66;
+}
+.carousel-text::first-letter{
+    color: #4E72D0;
+    font-size: 1.5rem;
+}
+.carousel-text{
+    padding: 0 110px;
+    font-size: 1.2rem;
+}
+.carousel-control-prev .carousel-control-prev-icon, .carousel-control-next .carousel-control-next-icon{
+    background-color: #c9c9ca;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+}
+.carousel-control-prev .carousel-control-prev-icon:hover, .carousel-control-next .carousel-control-next-icon:hover{
+    background-color: #59BC95;
+}
+.underline {
+    border-top: 2px solid #c9c9ca;
+    bottom: 22vh;
+    margin-top: 15px;
+}
+.underline-items{
+    display: flex; 
+    justify-content: center;
+}
+.underline-item img{
+    width: 85px;
+    height: 85px;
+    margin: 0;
+    padding: 0;
+}
+/* Blog (Latest News & Events) */
+.cardNews .card-body{
+    position: relative;
+    height: 210px;
+    z-index: 0;
+}
+.date{
+    z-index: 3;
+    position: absolute;
+    top: -10px;
+    left: 30px;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #59BC90;
+    color: #ffffff;
+}
+.imgNews{
+    z-index: 2;
+    width: 90%;
+    position: absolute;
+    top: -6.5vh;
+    left: .95rem;
+    border-radius: 5px;
+}
+.buttonNews{
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    padding: 0;
+}
+.buttonNews .col-md-10{
+    padding: 0;
+}
+.buttonNews button{
+    margin-left: -3.5rem;
+    padding: 0.2rem 1.2rem;
+    border: 2px solid #4E72D0;
+    color: #4E72D0;
+    border-radius: 20px;
+    background-color: transparent;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.buttonNewsEye{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin-right: -10rem;
+}
+.buttonNewsEye p{
+    padding: 0;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+.card-footer{
+    padding: 12px;
+}
+.card-footer p{
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+/* Footer */
+.footer img{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+.footer .col-md-3{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+}
+.buttonFooter{
+    margin-right: -35px;
+    background-color: #59BC90;
+    color: white; 
+    font-size: 14px; 
+    border: none; 
+    border-radius: 5px; 
+    padding: 0 1.5rem;
+}
+.footerItem .row .col-md-3:first-child{
+    background-color: #ffffff0c;
+    padding-left: 25px;
+}
+.footerItem .row .col-md-3:nth-child(2),
+.footerItem .row .col-md-3:nth-child(3){
+    padding: 2rem 1.5rem;
+}
+
+.footerItem .row .col-md-3:nth-child(2) h6,
+.footerItem .row .col-md-3:nth-child(3) h6{
+    padding-left: 1.2rem;
+    padding-bottom: 10px;
+}
+.footerItem .row .col-md-3:nth-child(2) h6 + div, 
+.footerItem .row .col-md-3:nth-child(3) h6 + div{
+    width: 50px;
+    height: 1px;
+    background-color: #59BC90;
+    margin-left: 20px;
+    margin-bottom: 18px;
+}
+.footerItem .row .col-md-3 img{
+    margin-left: -15px;
+    margin-bottom: -20px;
+}
+.footerItem .row .col-md-3 h5:nth-child(3){
+    margin-top: 10px;
+}
+.footerItem .row .col-md-3:nth-child(4){
+    display: block;
+    padding-top: 40px;
+    padding-left: 65px;
+}
+.buttonFooter2{
+    margin: 6px 0;
+    background-color: transparent;
+    color: #59BC90; 
+    font-size: 14px; 
+    border: 2px solid #59BC90; 
+    border-radius: 5px; 
+    width: 130px;
+    height: 40px;
+}
+.footerItem .list-unstyled{
+    display: flex;align-items: center;
+    justify-content: space-around;
+}
+.footerItem2 .col-md-12 div{
+    width: 95%;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.582);
+    margin: 0 8px 20px 8px;
+}
+.footerItem2 .col-md-10 p{
+    color: rgba(255, 255, 255, 0.699);
+    margin-left: 5px;
+}
+.footerItem2 .col-md-2 div{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #59BC90;
+    color: rgba(23, 24, 24, 0.842);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 65px;
+    cursor: pointer;
+    
+}
